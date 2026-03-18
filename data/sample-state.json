@@ -1,0 +1,18 @@
+[
+  {
+    "energy": 2,
+    "stress": 4,
+    "connectivity": "online",
+    "battery": "low",
+    "cognitiveLoad": 4,
+    "timestamp": "2026-03-18T10:00:00Z"
+  },
+  {
+    "energy": 4,
+    "stress": 2,
+    "connectivity": "online",
+    "battery": "full",
+    "cognitiveLoad": 2,
+    "timestamp": "2026-03-18T09:00:00Z"
+  }
+]

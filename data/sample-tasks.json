@@ -1,0 +1,65 @@
+[
+  {
+    "id": "task-001",
+    "title": "Deploy production hotfix",
+    "description": "Apply critical security patch to production servers",
+    "priority": "critical",
+    "cognitiveLoad": 5,
+    "failureCost": 5,
+    "steps": [
+      "Review the patch diff carefully",
+      "Run test suite in staging environment",
+      "Create rollback snapshot",
+      "Apply patch to production",
+      "Monitor error rates for 30 minutes",
+      "Update deployment log"
+    ],
+    "isOptional": false
+  },
+  {
+    "id": "task-002",
+    "title": "Write weekly status report",
+    "description": "Summarize progress for stakeholders",
+    "priority": "medium",
+    "cognitiveLoad": 3,
+    "failureCost": 2,
+    "steps": [
+      "Gather metrics from dashboard",
+      "Draft summary of completed work",
+      "Note blockers and risks",
+      "Send to team channel"
+    ],
+    "isOptional": false
+  },
+  {
+    "id": "task-003",
+    "title": "Refactor authentication module",
+    "description": "Optional code cleanup for auth module",
+    "priority": "optional",
+    "cognitiveLoad": 4,
+    "failureCost": 1,
+    "steps": [
+      "Identify code smell locations",
+      "Extract utility functions",
+      "Update unit tests",
+      "Submit pull request"
+    ],
+    "isOptional": true
+  },
+  {
+    "id": "task-004",
+    "title": "Respond to critical incident report",
+    "description": "Address customer-reported system outage",
+    "priority": "high",
+    "cognitiveLoad": 4,
+    "failureCost": 5,
+    "steps": [
+      "Read incident report thoroughly",
+      "Identify root cause",
+      "Implement immediate mitigation",
+      "Draft customer response",
+      "Schedule post-mortem"
+    ],
+    "isOptional": false
+  }
+]
