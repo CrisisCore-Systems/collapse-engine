@@ -1,0 +1,5 @@
+node_modules/
+dist/
+proof/adaptations.json
+*.env
+.env
